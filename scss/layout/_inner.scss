@@ -1,0 +1,6 @@
+.l-inner{
+    width: 81%;
+    @include ipad{
+        width: 100%;
+    }
+}

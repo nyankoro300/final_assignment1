@@ -1,0 +1,9 @@
+.c-menu{
+    padding:32px 0 28px 20px ;
+    &__list{
+        padding-bottom: 20px;
+        & a{
+            color: #707070;
+        }
+    }
+}

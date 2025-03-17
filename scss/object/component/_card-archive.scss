@@ -1,0 +1,24 @@
+.c-card-archive{
+    &__image{
+        background-image: url(../../../img/cardvisual.png);
+        width: 50%;
+        background-size: cover;
+    }
+    &__caption{
+        width: 50%;
+        background-color: #3c2b1c;
+        color: #ffffff;
+    }
+    &__title{
+        font-size: 2.25rem;
+    }
+    &__heading{
+        font-size: 1.5rem;
+        margin-top: 44px;
+    }
+    &__text{
+        font-size: 1rem;
+        margin-top: 13px;
+        margin-bottom: 60px;
+    }
+}

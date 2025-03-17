@@ -1,0 +1,22 @@
+.c-pagination{
+    // width: 38%;
+    margin: 0 auto;
+    &__item{
+        padding-right: 15px;
+        // padding: 1px;
+        // height: 30px;
+        // width: 30px;
+        // border: solid 2px;
+        &__link{
+            display: block;
+            color:#707070;
+            font-size: 1rem;
+            margin: 0 auto;
+            height: 30px;
+            width: 30px;
+            border: solid 2px;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+}

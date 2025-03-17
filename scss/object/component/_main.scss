@@ -1,0 +1,32 @@
+.c-main{
+    &__visual{
+        background-image: url(../../../img/mainvisual-pc.jpg);
+        height: 530px;
+        color: $color-heading;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        @include ipad{
+            height: 285px;
+        }
+        &--archive{
+            @extend .c-main__visual;
+            background-image: url(../../../img/page-title_arcive.jpg);
+            height: 239px;
+            & span{
+                font-size: 1rem;
+                margin-left: 19px;
+            }
+        }
+    }
+    &__title{
+        font-size: 2.5rem;
+        position: absolute;
+        margin-left: 86px;
+        top: 47%;
+        &--archive{
+            @extend .c-main__title;
+            top: 42%;
+        }
+    }
+}

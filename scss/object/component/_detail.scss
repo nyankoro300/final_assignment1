@@ -1,0 +1,17 @@
+.c-detail{
+    // display: block;
+    background-color: #ffffff;
+    // padding: 23px 100px 20px;
+    border-radius: 40px;
+    // margin-top: 60px;
+    // text-align: center;
+    height: 76px;
+    width: 292px;
+    margin: 0 auto;
+    &__text{
+        display: block;
+        color: #707070;
+        text-align: center;
+        line-height: 76px;
+    }
+}

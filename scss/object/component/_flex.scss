@@ -1,0 +1,51 @@
+.c-flex{
+    &--header{
+        display: flex;
+        justify-content: space-between;
+        // justify-content: flex-end;
+        align-items: center;
+        @include ipad{
+            flex-direction: column;
+        }
+    }
+    &--separate{
+        display: flex;
+    }
+    &--search{
+        display: flex;
+        justify-content: right;
+        @include ipad{
+            justify-content: center;
+        }
+    }
+    &--archive{
+        display: flex;
+        @include sp{
+            flex-direction: column;
+        }
+    }
+    &--card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &--map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &--footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__archive{
+        &--card{
+            display: flex;
+        }
+    }
+    &--pagination{
+        display: flex;
+        justify-content: center;
+    }
+}

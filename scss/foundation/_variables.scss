@@ -1,0 +1,23 @@
+$color-main :#707070;
+$color-heading:#ffffff;
+
+$bg-color-header:#fff7ef;
+
+.border-bottom{
+    display: block;
+    content: "";
+    border-bottom: solid 2px white;
+    width: 70px;
+    margin-top:30px ;
+}
+@mixin ipad {
+    // @media screen and (max-width :768px){
+    @media screen and (max-width :1200px){
+        @content;
+    }
+}
+@mixin sp {
+    @media screen and (max-width :834px){
+        @content;
+    }
+}

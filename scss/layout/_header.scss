@@ -1,0 +1,9 @@
+.l-header{
+    height: 217px;
+    background-color: $bg-color-header;
+    display: flex;
+    align-items: center;
+    @include ipad{
+        position: relative;
+    }
+}

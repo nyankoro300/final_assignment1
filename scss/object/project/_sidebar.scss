@@ -1,0 +1,14 @@
+.p-sidebar{
+    padding: 84px 0 0 46px;
+    &__title{
+        font-size: 2rem;
+        color: #707070;
+        @include ipad{
+            display: none;
+        }
+        @include sp{
+            font-size: 1.25rem;
+
+        }
+    }
+}

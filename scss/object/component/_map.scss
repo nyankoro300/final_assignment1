@@ -1,0 +1,61 @@
+.c-map{
+    width: 100%;
+    position: relative;
+    height: 649px;
+    @include ipad{
+        height: 415px;
+    }
+    @include sp{
+        height: 691px;
+    }
+    & iframe{
+        width: 100%;
+        height: 100%;
+    }
+    &__bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0 ,0 ,0 ,0.6);
+        width: 100%;
+        height: 100%;
+        @include sp{
+            height: 415px;
+        }
+    }
+    &__explanation{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0 ,0 ,0 ,0.3);
+        width: 66%;
+        height: 100%;
+        @include ipad{
+            background-color: rgba(0 ,0 ,0 ,0);
+            width: 100%;
+        }
+        @include sp{
+            background-color: rgba(0 ,0 ,0 ,0.3);
+            height: 100%;
+        }
+    }
+    &__heading{
+        font-size: 2.25rem;
+        &::after{
+            @extend .border-bottom;
+        }
+    }
+    &__text{
+        margin-top:50px;
+        @include ipad{
+            line-height: 2;
+            overflow: hidden;
+            height: 220px;
+            margin-top: 20px;
+        }
+        @include sp{
+            line-height: 2.5;
+            height: 480px;
+        }
+    }
+}

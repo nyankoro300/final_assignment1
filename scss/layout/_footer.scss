@@ -1,0 +1,20 @@
+.l-footer{
+    height: 150px;
+    // background-color: rgb(161, 129, 110);
+    background-image: url(../../img/footer_bg.png);
+    color: white;
+    &__text{
+        font-size: 1.25rem;
+        padding-top: 41px;
+        @include sp{
+            padding-top: 16px;
+        }
+    }
+    &__copyright{
+        font-size: 14px;
+        padding-top: 31px;
+        @include sp{
+            padding-top: 70px;
+        }
+    }
+}

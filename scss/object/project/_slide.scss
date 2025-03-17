@@ -1,0 +1,15 @@
+.p-slide{
+    display: none;
+    @include ipad{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 25px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    @include sp{
+        top: 8px;
+        right: 8px;
+    }
+}
