@@ -1,6 +1,10 @@
 .c-pagination{
     // width: 38%;
     margin: 0 auto;
+    &__text{
+        line-height: 30px;
+        margin-right: 8px;
+    }
     &__item{
         padding-right: 15px;
         // padding: 1px;
@@ -14,9 +18,13 @@
             margin: 0 auto;
             height: 30px;
             width: 30px;
-            border: solid 2px;
+            border: solid 1px;
             text-align: center;
             line-height: 30px;
+            &--arrow{
+                @extend .c-pagination__item__link;
+                border: none;
+            }
         }
     }
 }

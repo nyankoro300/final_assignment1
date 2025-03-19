@@ -803,19 +803,26 @@ body {
 .c-pagination {
   margin: 0 auto;
 }
+.c-pagination__text {
+  line-height: 30px;
+  margin-right: 8px;
+}
 .c-pagination__item {
   padding-right: 15px;
 }
-.c-pagination__item__link {
+.c-pagination__item__link, .c-pagination__item__link--arrow {
   display: block;
   color: #707070;
   font-size: 1rem;
   margin: 0 auto;
   height: 30px;
   width: 30px;
-  border: solid 2px;
+  border: solid 1px;
   text-align: center;
   line-height: 30px;
+}
+.c-pagination__item__link--arrow {
+  border: none;
 }
 
 .p-header {
